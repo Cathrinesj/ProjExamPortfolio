@@ -13,6 +13,10 @@
   color: var(--black);
 }
 
+section {
+  margin: 2rem 0rem;
+}
+
 /*Slider/Carousel*/
 
 .latest-posts {
@@ -29,7 +33,7 @@
 .carousel-slide {
   display: flex;
   width: 160px;
-  height: 120px;
+  height: 140px;
 }
 
 .carousel-display img {
@@ -40,7 +44,7 @@
 
 .carousel-display h2 {
   font-family: var(--text-paragarph);
-  font-size: 16px;
+  font-size: 18px;
 }
 
 #prevBtn {

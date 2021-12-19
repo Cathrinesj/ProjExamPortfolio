@@ -24,10 +24,6 @@ label {
   width: 100%;
 }
 
-.category {
-  border-bottom: 20px;
-}
-
 .categories {
   display: block;
   width: 300px;
