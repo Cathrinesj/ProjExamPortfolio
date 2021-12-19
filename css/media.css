@@ -117,17 +117,20 @@
     display: none;
   }
 
-  .filter {
+  .filter,
+  .categories {
     display: inline-flex;
+    width: 1000px;
   }
 
-  .categories,
-  .categories div {
-    width: 1000px;
+  label,
+  input {
+    width: 10px;
   }
 
   .bloglist-display img {
     width: 300px;
+    margin-top: 3rem;
   }
 
   /*post*/

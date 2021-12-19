@@ -1,9 +1,6 @@
 /*Removed*/
 
-.wp-block-post-template {
-  display: none;
-}
-
+.wp-block-post-template,
 .wp-block-latest-comments {
   display: none;
 }

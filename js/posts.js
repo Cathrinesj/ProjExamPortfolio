@@ -101,6 +101,14 @@ function checkIfButtonDisabled() {
   }
 }
 
+function checkLength(value, len) {
+  if (value.trim().length >= len) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
 name.addEventListener("keyup", checkIfButtonDisabled);
 comment.addEventListener("keyup", checkIfButtonDisabled);
 
@@ -111,14 +119,6 @@ function commentSubmit(event) {
 }
 
 form.addEventListener("submit", commentSubmit);
-
-function checkLength(value, len) {
-  if (value.trim().length >= len) {
-    return true;
-  } else {
-    return false;
-  }
-}
 
 //Latest Posts
 
