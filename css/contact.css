@@ -1,0 +1,9 @@
+.contact-error {
+  display: none;
+  color: red;
+}
+
+.message-success {
+  margin: 10px;
+  background-color: var(--orange);
+}

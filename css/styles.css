@@ -1,0 +1,144 @@
+@import "imports/links.css";
+@import "imports/variables.css";
+
+@font-face {
+  font-family: "pacifico";
+  src: url("../fonts/Pacifico-Regular.ttf") format("truetype");
+  font-family: "roboto";
+  src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+}
+
+/*General*/
+
+h1,
+h2,
+h3 {
+  font-family: var(--text-heading), Georgia, "Times New Roman", Times, serif;
+  color: var(--orange);
+}
+
+h1 {
+  font-size: 42px;
+  margin: 10px auto;
+}
+
+h2 {
+  font-size: 30px;
+  margin: 5px;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+p {
+  font-family: var(--text-paragraph), Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  text-align: left;
+}
+
+img {
+  width: 100%;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  display: block;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+section {
+  padding: 1rem;
+  display: block;
+}
+
+.border-btm {
+  border-bottom: solid 2px var(--blue);
+}
+
+.border-top {
+  border-top: solid 2px var(--blue);
+}
+
+form {
+  display: inline-block;
+  max-width: 320px;
+  font-family: var(--text-paragarph);
+  font-size: 18px;
+}
+
+input,
+textarea {
+  border-style: groove;
+  width: 100%;
+}
+
+/*Header*/
+
+header .fa-bars {
+  align-content: center;
+  padding: 5px;
+  color: var(--blue);
+}
+
+.logo-header {
+  height: 160px;
+}
+
+nav,
+nav a,
+ul,
+li {
+  width: 100%;
+  color: var(--blue);
+  font-family: var(--text-heading);
+  font-size: 30px;
+  text-decoration: none;
+  text-align: left;
+  list-style: none;
+  background-color: var(--white);
+  position: relative;
+}
+
+nav {
+  display: none;
+}
+
+/*Footer*/
+
+footer {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  background-color: var(--light-blue);
+  flex-shrink: 0;
+}
+
+footer h2 {
+  font-family: var(--text-heading);
+  font-size: 30px;
+  color: var(--black);
+  margin: 1rem;
+}
+
+footer .fab {
+  margin: 5px 5px 25px 5px;
+}

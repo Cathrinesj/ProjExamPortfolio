@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Wanderlust Blog - Wanderlust is Maria Dahls personal blog documenting her travels in Europe, among others France, Italy and Spain"
+    />
+    <title>Wanderlust Blog | Home</title>
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/index.css" rel="stylesheet" />
+    <link href="css/media.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/2661e0888f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="border-btm">
+      <a href="index.html">
+        <img
+          src="logo/Wanderlust-logo.svg"
+          alt="Wanderlust Logo"
+          class="logo-header"
+        />
+      </a>
+      <a href="javascript:void(0);" class="icon" onclick="hamburgerNav()">
+        <i class="fas fa-bars fa-lg"></i>
+      </a>
+      <nav>
+        <ul>
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="bloglist.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="intro flex-content border-btm">
+        <img
+          src="images/trainstation.jpg"
+          alt="Inside of a trainstation, trains on each side of the platform"
+        />
+        <div>
+          <h1>Welcome</h1>
+          <p>
+            Wanderlust is my personal blog documenting all my travels in Europe.
+            I am currently travelling full time, and hope to inspire you for
+            your next journey! Greece - warm and welcome. Always a taverna
+            nearby, friendly atmosphere and some warmth to give. Spain, where
+            the sun is (almost) always shining. UK giving us all great football
+            and shopping - a perfect combo? All the history that each and every
+            country has. All the amazing food and drinks, nightlife and
+            beachlife. There really is a country, city and place for all of us.
+            Europe has so many great places to visit, and you can read about my
+            experience with many of them right here!
+          </p>
+          <a href="bloglist.html" class="cta">View Blog</a>
+        </div>
+      </section>
+      <section class="latest-posts">
+        <div class="arrow-slider">
+          <i class="fas fa-chevron-left fa-2x" id="prevBtn"></i>
+        </div>
+        <div class="carousel-container">
+          <h2>Latest posts</h2>
+          <div id="carouselSlide" class="carousel carousel-slide">
+            <h1>Loading ...</h1>
+          </div>
+        </div>
+        <div class="arrow-slider">
+          <i class="fas fa-chevron-right fa-2x" id="nextBtn"></i>
+        </div>
+      </section>
+      <section class="highlighted-theme flex-content border-btm">
+        <div>
+          <h2>My favourite hotels</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc sed
+            velit dignissim sodales ut. Massa enim nec dui nunc mattis enim ut
+            tellus elementum. Nisl purus in mollis nunc sed id semper. Nam
+            aliquam sem et tortor. Lectus magna fringilla urna porttitor rhoncus
+            dolor purus non enim. Arcu dui vivamus arcu felis bibendum.
+          </p>
+          <a href="posts.html?id=240" class="cta">Read more</a>
+        </div>
+        <img
+          src="images/SagradaFamilia.jpg"
+          alt="view of the Sagrada Familia in Barcelona from the ground"
+        />
+      </section>
+      <section class="collabs flex-content">
+        <img
+          src="images/trainwindow.jpg"
+          alt="View of a coastline, mediterian vibe. Trainrails running on the coastline"
+        />
+        <div>
+          <h2>Collabs?</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc sed
+            velit dignissim sodales ut. Massa enim nec dui nunc mattis enim ut
+            tellus elementum. Nisl purus in mollis nunc sed id semper.
+          </p>
+          <a href="contact.html" class="cta">Contact</a>
+        </div>
+      </section>
+    </main>
+    <footer class="border-top">
+      <div>
+        <h2><a href="about.html">About</a></h2>
+        <h2><a href="contact.html">Contact</a></h2>
+        <h2>Wander along:</h2>
+        <i class="fab fa-instagram-square fa-2x"></i>
+        <i class="fab fa-youtube fa-2x"></i>
+        <i class="fab fa-snapchat-square fa-2x"></i>
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

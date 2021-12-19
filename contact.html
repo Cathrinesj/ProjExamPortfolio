@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Wanderlust Blog - Contact Maria Dahl for any tips about traveling Europe, or other subjects and collaborations"
+    />
+    <title>Wanderlust Blog | Contact</title>
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/contact.css" rel="stylesheet" />
+    <link href="css/media.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/2661e0888f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="border-btm">
+      <a href="index.html">
+        <img
+          src="logo/Wanderlust-logo.svg"
+          alt="Wanderlust Logo"
+          class="logo-header"
+        />
+      </a>
+      <a href="javascript:void(0);" class="icon" onclick="hamburgerNav()">
+        <i class="fas fa-bars fa-lg"></i>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="bloglist.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li class="active"><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="contact-text">
+        <h1>Contact Me</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc sed
+          velit dignissim sodales ut. Massa enim nec dui nunc mattis enim ut
+          tellus elementum. Nisl purus in mollis nunc sed id semper. Nam aliquam
+          sem et tortor. Lectus magna fringilla urna porttitor rhoncus dolor
+          purus non enim. Arcu dui vivamus arcu felis bibendum
+        </p>
+      </section>
+      <section>
+        <p class="message-success"></p>
+        <p></p>
+        <form>
+          <label>
+            Name (Min. 6 charachters)
+            <div class="contact-error" id="name-error">
+              Name must be more then 5 charachters
+            </div>
+            <input name="name" id="name" />
+          </label>
+          <label>
+            E-mail (required)
+            <div class="contact-error" id="email-error">
+              Please enter a valid e-mail
+            </div>
+            <input name="email" id="email" />
+          </label>
+          <label>
+            Subject (Min. 16 charachters)
+            <div class="contact-error" id="subject-error">
+              Subject must be more then 15 charachters
+            </div>
+            <input name="subject" id="subject" />
+          </label>
+          <label>
+            Message (min. 26 charachters)
+            <div class="contact-error" id="message-error">
+              Message must be more then 25 charachters
+            </div>
+            <textarea name="message" id="message" rows="5" col="22"></textarea>
+          </label>
+          <button>Send</button>
+        </form>
+      </section>
+    </main>
+    <footer class="border-top">
+      <div>
+        <h2><a href="about.html">About</a></h2>
+        <h2><a href="contact.html">Contact</a></h2>
+        <h2>Wander along:</h2>
+        <i class="fab fa-instagram-square fa-2x"></i>
+        <i class="fab fa-youtube fa-2x"></i>
+        <i class="fab fa-snapchat-square fa-2x"></i>
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="js/contact.js"></script>
+  </body>
+</html>

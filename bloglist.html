@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Wanderlust Blog - Overview of blogposts from Maria Dahl's travels in Europe. Among many places are Athens, Berlin and Malaga"
+    />
+    <title>Wanderlust Blog | Blog</title>
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/bloglist.css" rel="stylesheet" />
+    <link href="css/media.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/2661e0888f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="border-btm">
+      <a href="index.html">
+        <img
+          src="logo/Wanderlust-logo.svg"
+          alt="Wanderlust Logo"
+          class="logo-header"
+        />
+      </a>
+      <a href="javascript:void(0);" class="icon" onclick="hamburgerNav()">
+        <i class="fas fa-bars fa-lg"></i>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li class="active"><a href="bloglist.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h1>Blogposts</h1>
+        <p>
+          Read about my time(s) in Greece, Germany, Spain and all the other
+          wonderfull places Europe has to offer. Or maybe one of my posts
+          dedicated to giving you my best tips, amoing others favourite yoga
+          spots and hotels in Europe. Newest posts are first and in order of
+          publishing. Or you can use the filter below to find what you are
+          looking for!
+        </p>
+      </section>
+      <section>
+        <a
+          href="javascript:void(0);"
+          class="filterActive"
+          onclick="dropdownFilter()"
+        >
+          <h2>Filter</h2>
+          <i class="fas fa-sort-down"></i>
+        </a>
+        <div class="filter">
+          <div class="categories">
+            <div>
+              <label for="france">France</label>
+              <input
+                type="radio"
+                id="france"
+                class="category"
+                name="category"
+                value="11"
+              />
+              <label for="italy">Italy</label>
+              <input
+                type="radio"
+                id="italy"
+                class="category"
+                name="category"
+                value="13"
+              />
+              <label for="spain">Spain</label>
+              <input
+                type="radio"
+                id="spain"
+                class="category"
+                name="category"
+                value="10"
+              />
+              <label for="germany">Germany</label>
+              <input
+                type="radio"
+                id="germany"
+                class="category"
+                name="category"
+                value="12"
+              />
+              <label for="greece">Greece</label>
+              <input
+                type="radio"
+                id="greece"
+                class="category"
+                name="category"
+                value="9"
+              />
+              <label for="england">England</label>
+              <input
+                type="radio"
+                id="england"
+                class="category"
+                name="category"
+                value="14"
+              />
+              <label for="tips">Tips</label>
+              <input
+                type="radio"
+                id="tips"
+                class="category"
+                name="category"
+                value="16"
+              />
+              <label for="yoga">Yoga</label>
+              <input
+                type="radio"
+                id="yoga"
+                class="category"
+                name="category"
+                value="17"
+              />
+              <label for="hotels">Hotels</label>
+              <input
+                type="radio"
+                id="hotels"
+                class="category"
+                name="category"
+                value="15"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="bloglist-container">
+        <div class="bloglist"></div>
+        <button>View More</button>
+      </section>
+    </main>
+    <footer class="border-top">
+      <div>
+        <h2><a href="about.html">About</a></h2>
+        <h2><a href="contact.html">Contact</a></h2>
+        <h2>Wander along:</h2>
+        <i class="fab fa-instagram-square fa-2x"></i>
+        <i class="fab fa-youtube fa-2x"></i>
+        <i class="fab fa-snapchat-square fa-2x"></i>
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="js/bloglist.js"></script>
+  </body>
+</html>

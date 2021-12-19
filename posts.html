@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Wanderlust Blog - Maria Dahl hopes to inspire you to travel in Europe, safe and enjoying yourself with friends and family." />
+    <title>Wanderlust Blog</title>
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/posts.css" rel="stylesheet" />
+    <link href="css/media.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/2661e0888f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="border-btm">
+      <a href="index.html">
+        <img
+          src="logo/Wanderlust-logo.svg"
+          alt="Wanderlust Logo"
+          class="logo-header"
+        />
+      </a>
+      <a href="javascript:void(0);" class="icon" onclick="hamburgerNav()">
+        <i class="fas fa-bars fa-lg"></i>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li class="active"><a href="bloglist.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="side-icon">
+        <i onclick="toTop()" class="fas fa-caret-square-up fa-2x"></i>
+        <i class="fas fa-share-alt-square fa-2x"></i>
+      </div>
+      <section class="post-details">
+        <h2>Loading</h2>
+      </section>
+      <div id="myModal" class="modal">
+        <img class="modal-content" id="imgModal" />
+      </div>
+      <section class="comment-container border-btm border-top">
+        <h2>Leave a comment</h2>
+        <form>
+          <label>
+            Name (*Required)
+            <input name="name" id="name" type="text" />
+          </label>
+          <label>
+            Comment
+            </div>
+            <textarea name="comment" id="comment" rows="5" col="22"></textarea>
+          </label>
+          <button disabled> Submit</button>
+        </form>
+      </section>
+      <section>
+        <h2>Latest Posts</h2>
+        <div class="blog-latest-posts">
+          <h2>Loading</h2>
+        </div>
+      </section>
+    </main>
+    <footer class="border-top">
+      <div>
+        <h2><a href="about.html">About</a></h2>
+        <h2><a href="contact.html">Contact</a></h2>
+        <h2>Wander along:</h2>
+        <i class="fab fa-instagram-square fa-2x"></i>
+        <i class="fab fa-youtube fa-2x"></i>
+        <i class="fab fa-snapchat-square fa-2x"></i>
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="js/posts.js"></script>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+/* Design */
+
+.highlighted-theme {
+  background-color: var(--light-blue);
+  border-top: solid 2px var(--blue);
+}
+
+.highlighted-theme img {
+  margin-top: 1rem;
+}
+
+.highlighted-theme h2 {
+  color: var(--black);
+}
+
+/*Slider/Carousel*/
+
+.latest-posts {
+  display: flex;
+}
+
+.carousel-container {
+  width: 60%;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-slide {
+  display: flex;
+  width: 160px;
+  height: 120px;
+}
+
+.carousel-display img {
+  width: 70px;
+  height: 47px;
+  margin: 5px;
+}
+
+.carousel-display h2 {
+  font-family: var(--text-paragarph);
+  font-size: 16px;
+}
+
+#prevBtn {
+  cursor: pointer;
+}
+
+#nextBtn {
+  cursor: pointer;
+}
+
+.arrow-slider {
+  margin-top: 80px;
+}
+
+.fa-chevron-left {
+  margin-right: 10px;
+}
+
+.fa-chevron-right {
+  margin-left: 10px;
+}

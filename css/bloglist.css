@@ -1,0 +1,44 @@
+/*Removed*/
+
+.more-link {
+  display: none;
+}
+
+/*Design*/
+
+.filterActive {
+  display: inline-flex;
+}
+
+.fa-sort-down {
+  margin: 20px 0px 0px 10px;
+  color: var(--orange);
+}
+
+.filter {
+  display: none;
+  margin-bottom: 20px;
+}
+
+.categories {
+  display: block;
+  width: 300px;
+  font-family: var(--text-paragraph);
+  font-size: 18px;
+  text-align: left;
+  background-color: var(--white);
+  position: relative;
+}
+
+input {
+  width: 10px;
+}
+
+.categories div {
+  width: 100px;
+}
+
+.bloglist {
+  display: block;
+  margin-bottom: 20px;
+}

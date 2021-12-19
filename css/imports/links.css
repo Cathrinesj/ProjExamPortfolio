@@ -1,0 +1,24 @@
+.active a {
+  color: var(--orange);
+}
+
+.cta,
+button {
+  display: inline-block;
+  text-align: center;
+  cursor: default;
+  padding: 8px 16px;
+  border-width: 0px;
+  border-style: none;
+  background-color: var(--orange);
+  color: black;
+  font-family: var(--text-paragraph);
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.cta:hover,
+button:hover {
+  transition-duration: 0.5s;
+  background-color: var(--light-orange);
+}
